@@ -45,7 +45,7 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
                 marginBottom: '0.6rem',
                 color: 'var(--primary-deep)'
               }}>
-                A Private Letter For You
+                A Private Letter For Prapti
               </h2>
 
               <p style={{
@@ -53,7 +53,7 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
                 fontSize: '1.05rem',
                 marginBottom: '1.8rem'
               }}>
-                Tap to unseal and read... 💌
+                Tap to unseal and read, Prapti... 💌
               </p>
 
               {/* Wax Seal Emblem */}
@@ -104,7 +104,7 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
                     color: 'var(--primary-deep)',
                     fontSize: '1.1rem'
                   }}>
-                    A Note From The Heart
+                    A Note For Prapti
                   </span>
                 </div>
 
@@ -145,7 +145,7 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
                   marginBottom: '1.5rem',
                   fontWeight: '600'
                 }}>
-                  Hey, you...
+                  Hey Prapti...
                 </p>
 
                 <p style={{ marginBottom: '1.4rem' }}>
@@ -153,7 +153,7 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
                 </p>
 
                 <p style={{ marginBottom: '1.4rem' }}>
-                  Whatever it is, I want you to know that you matter to me. You don't have to reply immediately, and you don't have to explain everything.
+                  Whatever it is, Prapti, I want you to know that you matter to me. You don't have to reply immediately, and you don't have to explain everything.
                 </p>
 
                 <p style={{ marginBottom: '1.8rem' }}>
@@ -171,7 +171,7 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
                   justifyContent: 'flex-end',
                   gap: '0.6rem'
                 }}>
-                  <span>Sending you a little happiness.</span>
+                  <span>Sending you a little happiness, Prapti.</span>
                   <span style={{ fontSize: '2.2rem' }}>🌷</span>
                 </div>
               </div>

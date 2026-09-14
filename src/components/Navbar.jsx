@@ -67,7 +67,7 @@ export const Navbar = ({ onOpenLetter }) => {
             color: 'var(--primary-deep)',
             letterSpacing: '-0.01em'
           }}>
-            For Bestie <span style={{ color: 'var(--primary-rose)', fontSize: '0.9rem' }}>✨</span>
+            For Prapti <span style={{ color: 'var(--primary-rose)', fontSize: '0.9rem' }}>✨</span>
           </span>
         </a>
 

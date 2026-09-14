@@ -21,7 +21,7 @@ export const HeroSection = ({ onOpenLetter }) => {
       }}>
         {/* Small Badge */}
         <div className="badge floating-anim" style={{ animationDuration: '4s' }}>
-          <span>Made especially for you</span>
+          <span>Made especially for Prapti</span>
           <span style={{ color: 'var(--primary-rose)' }}>✨</span>
         </div>
 
@@ -36,7 +36,7 @@ export const HeroSection = ({ onOpenLetter }) => {
           WebkitTextFillColor: 'transparent',
           textShadow: '0 10px 30px rgba(233, 30, 99, 0.08)'
         }}>
-          You deserve all the happiness in the world.
+          Prapti, you deserve all the happiness in the world.
         </h1>
 
         {/* Subtitle */}
@@ -47,7 +47,7 @@ export const HeroSection = ({ onOpenLetter }) => {
           maxWidth: '680px',
           color: 'var(--text-muted)'
         }}>
-          No matter what kind of day you are having, I hope this little corner brings a gentle warmth to your heart, a peaceful moment to your mind, and a bright, beautiful smile to your face.
+          No matter what kind of day you are having, Prapti, I hope this little corner brings a gentle warmth to your heart, a peaceful moment to your mind, and a bright, beautiful smile to your face.
         </p>
 
         {/* Hero Decorative Illustration (Interactive Blooming Glass Emblem) */}

@@ -53,7 +53,7 @@ export const FinalMessage = ({ isRevealed, setIsRevealed }) => {
               fontWeight: '700',
               marginBottom: '1.5rem'
             }}>
-              "You are not just a good friend. You are someone whose happiness genuinely matters to me."
+              "Prapti, you are not just a good friend. You are someone whose happiness genuinely matters to me."
             </h3>
 
             <div style={{
@@ -67,7 +67,7 @@ export const FinalMessage = ({ isRevealed, setIsRevealed }) => {
               color: 'var(--primary-rose)',
               fontWeight: '600'
             }}>
-              <span>Always in your corner</span>
+              <span>Always in your corner, Prapti</span>
               <span>🌷</span>
             </div>
           </div>

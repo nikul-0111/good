@@ -84,7 +84,7 @@ export const PeaceSection = () => {
             fontFamily: 'var(--font-sans)',
             fontWeight: '400'
           }}>
-            You don't have to reply to this page or to any message right away. If you need some space, that's completely okay. Just take care of yourself, okay? <span style={{ color: 'var(--primary-rose)' }}>🤍</span>
+            Prapti, you don't have to reply to this page or to any message right away. If you need some space, that's completely okay. Just take care of yourself, okay? <span style={{ color: 'var(--primary-rose)' }}>🤍</span>
           </p>
 
           {/* Gentle Self-Care Reminders */}

@@ -68,7 +68,7 @@ export const QuoteCard = () => {
               fontStyle: 'italic',
               fontWeight: '700'
             }}>
-              You are both. <span style={{ fontStyle: 'normal' }}>💗</span>
+              Prapti, you are both. <span style={{ fontStyle: 'normal' }}>💗</span>
             </p>
           </blockquote>
 

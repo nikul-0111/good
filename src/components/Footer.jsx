@@ -41,7 +41,7 @@ export const Footer = () => {
           color: 'var(--text-muted)',
           fontStyle: 'italic'
         }}>
-          Always wishing you a happy heart. ✨
+          Always wishing Prapti a happy heart. ✨
         </p>
 
         {/* Back to top button */}

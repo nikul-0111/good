@@ -25,11 +25,11 @@ export const AboutHer = () => {
             color: 'var(--primary-deep)',
             marginBottom: '1rem'
           }}>
-            If someone asks me, <span style={{ fontStyle: 'italic', color: 'var(--primary-rose)' }}>"How is she?"</span>
+            If someone asks me, <span style={{ fontStyle: 'italic', color: 'var(--primary-rose)' }}>"How is Prapti?"</span>
           </h2>
           
           <p className="subheading">
-            Here is what I would tell them about the wonderful person you are...
+            Here is what I would tell them about the wonderful person Prapti is...
           </p>
         </div>
 
@@ -99,11 +99,11 @@ export const AboutHer = () => {
             </div>
 
             <h3 className="heading-serif" style={{
-              fontSize: '1.5rem',
+              fontSize: '1.6rem',
               color: 'var(--primary-deep)',
               marginBottom: '0.4rem'
             }}>
-              One of a Kind
+              Prapti ✨
             </h3>
 
             <p style={{
@@ -111,7 +111,7 @@ export const AboutHer = () => {
               color: 'var(--text-muted)',
               fontWeight: '500'
             }}>
-              Genuine • Warm • Unforgettable
+              One of a Kind • Warm • Unforgettable
             </p>
           </div>
 
@@ -132,7 +132,7 @@ export const AboutHer = () => {
               marginBottom: '1.4rem',
               fontStyle: 'italic'
             }}>
-              "She is one of a kind."
+              "Prapti is one of a kind."
             </p>
 
             <div style={{
