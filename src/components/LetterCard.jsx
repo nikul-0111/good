@@ -45,7 +45,7 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
                 marginBottom: '0.6rem',
                 color: 'var(--primary-deep)'
               }}>
-                A Private Letter For Prapti
+                A Sincere Note For Nehal
               </h2>
 
               <p style={{
@@ -53,7 +53,7 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
                 fontSize: '1.05rem',
                 marginBottom: '1.8rem'
               }}>
-                Tap to unseal and read, Prapti... 💌
+                Tap to unseal and read, Nehal... 💌
               </p>
 
               {/* Wax Seal Emblem */}
@@ -70,7 +70,7 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
                 boxShadow: '0 6px 18px rgba(233, 30, 99, 0.4)',
                 border: '2px solid rgba(255,255,255,0.6)'
               }}>
-                🌸
+                🤍
               </div>
             </div>
           ) : (
@@ -80,8 +80,8 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
               style={{
                 padding: 'clamp(2rem, 5vw, 4rem)',
                 borderRadius: '28px',
-                background: 'linear-gradient(160deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 245, 248, 0.9) 100%)',
-                border: '1px solid rgba(244, 143, 177, 0.4)',
+                background: 'linear-gradient(160deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 245, 248, 0.92) 100%)',
+                border: '1px solid rgba(244, 143, 177, 0.45)',
                 boxShadow: '0 25px 60px rgba(220, 130, 170, 0.18)',
                 position: 'relative',
                 animation: 'fadeInLetter 0.7s ease-out forwards'
@@ -104,7 +104,7 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
                     color: 'var(--primary-deep)',
                     fontSize: '1.1rem'
                   }}>
-                    A Note For Prapti
+                    A Sincere Note For Nehal
                   </span>
                 </div>
 
@@ -134,35 +134,64 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
               {/* Letter Content */}
               <div style={{
                 fontFamily: 'var(--font-serif)',
-                fontSize: 'clamp(1.1rem, 2.2vw, 1.28rem)',
-                lineHeight: '1.9',
+                fontSize: 'clamp(1.08rem, 2.1vw, 1.24rem)',
+                lineHeight: '1.95',
                 color: 'var(--text-main)'
               }}>
-                <p style={{
-                  fontSize: '1.4rem',
-                  fontStyle: 'italic',
-                  color: 'var(--primary-rose)',
-                  marginBottom: '1.5rem',
-                  fontWeight: '600'
+                <h3 style={{
+                  fontSize: 'clamp(1.5rem, 3vw, 2rem)',
+                  fontStyle: 'normal',
+                  color: 'var(--primary-deep)',
+                  marginBottom: '1.8rem',
+                  fontWeight: '700',
+                  letterSpacing: '-0.01em',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem'
                 }}>
-                  Hey Prapti...
+                  <span>To Nehal,</span>
+                  <span style={{ fontSize: '1.4rem' }}>🌸</span>
+                </h3>
+
+                <p style={{ marginBottom: '1.5rem' }}>
+                  It's a little strange to write something about someone I barely know, but sometimes, even a few conversations are enough to leave a beautiful impression.
                 </p>
 
-                <p style={{ marginBottom: '1.4rem' }}>
-                  I don't know what kind of day you're having right now. Maybe you're happy, maybe you're upset, or maybe you just need some quiet time.
+                <p style={{ marginBottom: '1.5rem' }}>
+                  We are still strangers to each other. We have only talked two or three times, and I don't know much about you or your life. But from those little conversations, I genuinely felt that you are a really kind-hearted and pure-hearted person.
                 </p>
 
-                <p style={{ marginBottom: '1.4rem' }}>
-                  Whatever it is, Prapti, I want you to know that you matter to me. You don't have to reply immediately, and you don't have to explain everything.
+                <p style={{ marginBottom: '1.5rem' }}>
+                  There's something beautiful about your nature. You seem kind, sensitive, humble, and genuinely down to earth. You don't seem to have any unnecessary attitude, and the way you talk to people feels so respectful and gentle.
                 </p>
 
-                <p style={{ marginBottom: '1.8rem' }}>
-                  Take your time, take care of yourself, and remember that someone is always wishing you peace, happiness, and a beautiful smile.
+                <p style={{ marginBottom: '1.5rem' }}>
+                  Of course, you're pretty, and you have a lovely personality. But I think what makes someone truly beautiful isn't just their appearance. It's their heart, their kindness, and the way they treat others. And from whatever little I've seen of you, I feel you have those qualities.
+                </p>
+
+                <p style={{ marginBottom: '1.5rem' }}>
+                  One thing I genuinely appreciate is that even though you barely know me, you've never made me feel bad or deliberately hurt me. You've always been respectful in your own way, and I really admire that.
+                </p>
+
+                <p style={{ marginBottom: '1.5rem' }}>
+                  I know we haven't talked much, and maybe we won't get the chance to know each other better. That's completely okay. I understand that everyone has their own choices, comfort, and boundaries, and I respect yours.
+                </p>
+
+                <p style={{ marginBottom: '1.5rem' }}>
+                  I couldn't become your friend, but I'm genuinely glad that I got the chance to talk to you, even if it was only for a little while.
+                </p>
+
+                <p style={{ marginBottom: '1.5rem' }}>
+                  Sometimes, we come across people who remind us that there are still genuinely good-hearted people in this world. And honestly, you gave me that feeling.
+                </p>
+
+                <p style={{ marginBottom: '2rem' }}>
+                  I don't know if everything I've written is completely accurate, because I haven't known you for long. But this is the impression you've left on me, and I wanted to express it.
                 </p>
 
                 <div style={{
                   fontFamily: 'var(--font-handwriting)',
-                  fontSize: '1.8rem',
+                  fontSize: '1.75rem',
                   color: 'var(--primary-deep)',
                   marginTop: '2.5rem',
                   textAlign: 'right',
@@ -171,24 +200,24 @@ export const LetterCard = ({ isOpen, setIsOpen }) => {
                   justifyContent: 'flex-end',
                   gap: '0.6rem'
                 }}>
-                  <span>Sending you a little happiness, Prapti.</span>
-                  <span style={{ fontSize: '2.2rem' }}>🌷</span>
+                  <span>With genuine respect & warm wishes,</span>
+                  <span style={{ fontSize: '2rem' }}>🤍🌷</span>
                 </div>
               </div>
 
               {/* Gentle bottom accent decorative seal */}
               <div style={{
-                marginTop: '2rem',
+                marginTop: '2.5rem',
                 paddingTop: '1.5rem',
-                borderTop: '1px dashed rgba(244, 143, 177, 0.3)',
+                borderTop: '1px dashed rgba(244, 143, 177, 0.35)',
                 textAlign: 'center'
               }}>
                 <span style={{
-                  fontSize: '0.85rem',
+                  fontSize: '0.9rem',
                   color: 'var(--text-light)',
                   fontStyle: 'italic'
                 }}>
-                  ✨ Remember: You are always valued, just as you are.
+                  ✨ A sincere thought left with quiet respect and pure intentions.
                 </span>
               </div>
             </div>

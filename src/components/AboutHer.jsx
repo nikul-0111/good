@@ -2,11 +2,11 @@ import React from 'react';
 
 export const AboutHer = () => {
   const highlights = [
-    { title: 'Kind Heart', emoji: '💗', desc: 'Selfless, empathetic, and genuinely warm to everyone around her.' },
-    { title: 'Beautiful Nature', emoji: '🌸', desc: 'A serene personality that brings calm and light into any moment.' },
-    { title: 'Down to Earth', emoji: '🌿', desc: 'Real, authentic, and completely free of unnecessary attitude.' },
-    { title: 'Makes People Smile', emoji: '✨', desc: 'Effortlessly brightens the room and turns simple days into special ones.' },
-    { title: 'Truly Special', emoji: '🌷', desc: 'A rare soul whose friendship is a genuine gift to be thankful for.' }
+    { title: 'Pure & Kind Heart', emoji: '🤍', desc: 'A genuinely pure-hearted person whose warmth is felt even in brief words.' },
+    { title: 'Humble & Down to Earth', emoji: '🌿', desc: 'Completely free of unnecessary attitude—grounded, gentle, and real.' },
+    { title: 'Respectful & Gentle', emoji: '🌸', desc: 'Speaks with courtesy and grace, always treating others respectfully.' },
+    { title: 'Truly Beautiful', emoji: '✨', desc: 'Pretty on the outside, and most radiant through her kindness and heart.' },
+    { title: 'A Rare Reminder', emoji: '🌷', desc: 'A reminder that good-hearted, gentle people still exist in this world.' }
   ];
 
   return (
@@ -16,7 +16,7 @@ export const AboutHer = () => {
         {/* Section Title */}
         <div style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
           <div className="badge">
-            <span>Answering a special question</span>
+            <span>A Genuine Impression</span>
             <span>💭</span>
           </div>
           
@@ -25,11 +25,11 @@ export const AboutHer = () => {
             color: 'var(--primary-deep)',
             marginBottom: '1rem'
           }}>
-            If someone asks me, <span style={{ fontStyle: 'italic', color: 'var(--primary-rose)' }}>"How is Prapti?"</span>
+            The Impression You Left
           </h2>
           
           <p className="subheading">
-            Here is what I would tell them about the wonderful person Prapti is...
+            Here is the genuine impression those few conversations left on me...
           </p>
         </div>
 
@@ -103,7 +103,7 @@ export const AboutHer = () => {
               color: 'var(--primary-deep)',
               marginBottom: '0.4rem'
             }}>
-              Prapti ✨
+              Nehal ✨
             </h3>
 
             <p style={{
@@ -111,7 +111,7 @@ export const AboutHer = () => {
               color: 'var(--text-muted)',
               fontWeight: '500'
             }}>
-              One of a Kind • Warm • Unforgettable
+              Pure-Hearted • Down to Earth • Respectful
             </p>
           </div>
 
@@ -132,7 +132,7 @@ export const AboutHer = () => {
               marginBottom: '1.4rem',
               fontStyle: 'italic'
             }}>
-              "Prapti is one of a kind."
+              "There's something beautiful about Nehal's nature."
             </p>
 
             <div style={{
@@ -144,15 +144,15 @@ export const AboutHer = () => {
               gap: '1.2rem'
             }}>
               <p>
-                She is kind, caring, sensitive, and beautifully down to earth. She has no unnecessary attitude, and talking to her can make even an ordinary day feel special.
+                She seems kind, sensitive, humble, and genuinely down to earth. She doesn't have any unnecessary attitude, and the way she talks feels so respectful and gentle.
               </p>
 
               <p>
-                She is pretty, of course, but what makes her truly beautiful is her heart, her nature, and the warmth she gives to people around her.
+                Of course, she's pretty, and she has a lovely personality. But what makes someone truly beautiful isn't just their appearance—it's their heart, their kindness, and the way they treat others.
               </p>
 
               <p>
-                She is the kind of person whose conversations can make someone smile without even trying. Her presence feels peaceful, and her friendship is something to be grateful for.
+                Even though we barely know each other and have only talked a few times, she has always been respectful in her own way. Sometimes people remind us that genuinely good-hearted individuals still exist—and honestly, Nehal gives that feeling.
               </p>
             </div>
           </div>

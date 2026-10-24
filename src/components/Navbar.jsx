@@ -19,10 +19,10 @@ export const Navbar = ({ onOpenLetter }) => {
 
   const navLinks = [
     { name: 'Home', href: '#hero' },
-    { name: 'My Letter 💌', href: '#letter', onClick: onOpenLetter },
-    { name: 'About You 🌸', href: '#about' },
+    { name: 'The Letter 💌', href: '#letter', onClick: onOpenLetter },
+    { name: 'Impression 🌸', href: '#about' },
     { name: 'Thought ✨', href: '#quote' },
-    { name: 'No Pressure ☁️', href: '#care' },
+    { name: 'Respect & Space 🤍', href: '#care' },
   ];
 
   const handleLinkClick = (e, link) => {
@@ -67,7 +67,7 @@ export const Navbar = ({ onOpenLetter }) => {
             color: 'var(--primary-deep)',
             letterSpacing: '-0.01em'
           }}>
-            For Prapti <span style={{ color: 'var(--primary-rose)', fontSize: '0.9rem' }}>✨</span>
+            For Nehal <span style={{ color: 'var(--primary-rose)', fontSize: '0.9rem' }}>✨</span>
           </span>
         </a>
 

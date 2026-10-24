@@ -21,22 +21,22 @@ export const HeroSection = ({ onOpenLetter }) => {
       }}>
         {/* Small Badge */}
         <div className="badge floating-anim" style={{ animationDuration: '4s' }}>
-          <span>Made especially for Prapti</span>
+          <span>A sincere note for Nehal</span>
           <span style={{ color: 'var(--primary-rose)' }}>✨</span>
         </div>
 
         {/* Main Heading */}
         <h1 className="heading-serif" style={{
-          fontSize: 'clamp(2.4rem, 5.5vw, 4.2rem)',
-          maxWidth: '860px',
+          fontSize: 'clamp(2.3rem, 5.2vw, 4rem)',
+          maxWidth: '880px',
           marginBottom: '1.5rem',
-          lineHeight: '1.2',
+          lineHeight: '1.25',
           background: 'linear-gradient(135deg, #4a2838 0%, #8b3a62 50%, #e91e63 100%)',
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
           textShadow: '0 10px 30px rgba(233, 30, 99, 0.08)'
         }}>
-          Prapti, you deserve all the happiness in the world.
+          Nehal, even a few conversations can leave a beautiful impression.
         </h1>
 
         {/* Subtitle */}
@@ -44,10 +44,10 @@ export const HeroSection = ({ onOpenLetter }) => {
           fontSize: 'clamp(1.05rem, 2.2vw, 1.25rem)',
           lineHeight: '1.75',
           marginBottom: '2.5rem',
-          maxWidth: '680px',
+          maxWidth: '700px',
           color: 'var(--text-muted)'
         }}>
-          No matter what kind of day you are having, Prapti, I hope this little corner brings a gentle warmth to your heart, a peaceful moment to your mind, and a bright, beautiful smile to your face.
+          We may still be strangers, but some people remind us how pure, respectful, and down-to-earth hearts can be. I wanted to share this gentle message with you.
         </p>
 
         {/* Hero Decorative Illustration (Interactive Blooming Glass Emblem) */}
@@ -121,7 +121,7 @@ export const HeroSection = ({ onOpenLetter }) => {
               letterSpacing: '0.01em'
             }}
           >
-            <span>Open My Little Letter</span>
+            <span>Read The Letter For Nehal</span>
             <span style={{ fontSize: '1.3rem', transition: 'transform 0.3s ease' }} className="letter-icon">💌</span>
           </button>
         </div>

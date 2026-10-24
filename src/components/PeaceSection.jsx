@@ -4,10 +4,10 @@ export const PeaceSection = () => {
   const [activeCare, setActiveCare] = useState(null);
 
   const careTips = [
-    { title: 'Drink some water 💧', text: 'Stay hydrated and take a soft moment for yourself.' },
-    { title: 'Take a deep breath 🌬️', text: 'Inhale peace, exhale all the tension and worries.' },
-    { title: 'Rest your eyes 🌙', text: 'Give your mind a break. Everything will be okay.' },
-    { title: 'Listen to a favorite song 🎵', text: 'Let music wrap around you like a comforting hug.' }
+    { title: 'Your comfort comes first 🕊️', text: 'Everyone moves at their own pace, and your personal boundaries are completely respected.' },
+    { title: 'No need to reply 💌', text: 'You do not have to explain or respond—just take this as a sincere, gentle wish.' },
+    { title: 'Take a quiet breath 🌬️', text: 'Take a soft moment for yourself. Inhale peace, exhale all the rush of the world.' },
+    { title: 'Keep that gentle smile ✨', text: 'May your days always be filled with lightness, quiet calm, and true peace.' }
   ];
 
   return (
@@ -69,14 +69,14 @@ export const PeaceSection = () => {
               fontSize: '1.3rem',
               color: 'var(--primary-deep)'
             }}>
-              No pressure. Just care.
+              No pressure. Total respect for your space.
             </span>
             <span style={{ fontSize: '1.2rem' }}>☁️</span>
           </div>
 
           {/* Calming Main Text */}
           <p style={{
-            fontSize: 'clamp(1.1rem, 2.3vw, 1.35rem)',
+            fontSize: 'clamp(1.08rem, 2.2vw, 1.28rem)',
             lineHeight: '1.85',
             color: 'var(--text-main)',
             maxWidth: '680px',
@@ -84,7 +84,7 @@ export const PeaceSection = () => {
             fontFamily: 'var(--font-sans)',
             fontWeight: '400'
           }}>
-            Prapti, you don't have to reply to this page or to any message right away. If you need some space, that's completely okay. Just take care of yourself, okay? <span style={{ color: 'var(--primary-rose)' }}>🤍</span>
+            Nehal, I understand that everyone has their own choices, comfort, and boundaries, and I completely respect yours. You don't have to reply or feel any obligation. Just take good care of yourself, always. <span style={{ color: 'var(--primary-rose)' }}>🤍</span>
           </p>
 
           {/* Gentle Self-Care Reminders */}

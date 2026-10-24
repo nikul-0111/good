@@ -4,7 +4,7 @@ export const QuoteCard = () => {
   const [copied, setCopied] = useState(false);
 
   const handleCopyQuote = () => {
-    const text = `“Some people are beautiful to look at. Some people are beautiful to know. You are both.” 💗`;
+    const text = `“What makes someone truly beautiful isn't just their appearance. It's their heart, their kindness, and how they treat others. Stay the way you are, Nehal. The world needs more people with kind hearts like yours.” 🤍`;
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
@@ -54,21 +54,23 @@ export const QuoteCard = () => {
           {/* Quote Lines */}
           <blockquote style={{
             fontFamily: 'var(--font-serif)',
-            fontSize: 'clamp(1.5rem, 3.5vw, 2.3rem)',
+            fontSize: 'clamp(1.35rem, 3vw, 1.95rem)',
             fontWeight: '600',
-            lineHeight: '1.5',
+            lineHeight: '1.55',
             color: 'var(--primary-deep)',
             marginBottom: '2rem',
             letterSpacing: '-0.01em'
           }}>
-            <p style={{ marginBottom: '0.4rem' }}>Some people are beautiful to look at.</p>
-            <p style={{ marginBottom: '0.4rem' }}>Some people are beautiful to know.</p>
+            <p style={{ marginBottom: '0.6rem' }}>“What makes someone truly beautiful isn't just their appearance.</p>
+            <p style={{ marginBottom: '0.6rem' }}>It's their heart, their kindness, and how they treat others.”</p>
             <p style={{
               color: 'var(--primary-rose)',
               fontStyle: 'italic',
-              fontWeight: '700'
+              fontWeight: '700',
+              marginTop: '1.2rem',
+              fontSize: 'clamp(1.15rem, 2.6vw, 1.65rem)'
             }}>
-              Prapti, you are both. <span style={{ fontStyle: 'normal' }}>💗</span>
+              Stay the way you are, Nehal. The world needs more people with kind hearts like yours. <span style={{ fontStyle: 'normal' }}>🤍</span>
             </p>
           </blockquote>
 
@@ -94,7 +96,7 @@ export const QuoteCard = () => {
               padding: '0.6rem 1.4rem'
             }}
           >
-            <span>{copied ? 'Copied to Clipboard! ✨' : 'Copy Quote 💖'}</span>
+            <span>{copied ? 'Copied to Clipboard! ✨' : 'Copy Quote 🤍'}</span>
           </button>
         </div>
 

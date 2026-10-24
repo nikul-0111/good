@@ -32,7 +32,7 @@ export const Footer = () => {
           fontWeight: '600',
           letterSpacing: '0.01em'
         }}>
-          Made with friendship, kindness & a little bit of love <span style={{ color: 'var(--primary-rose)' }}>💗</span>
+          Written with sincerity, quiet respect & gentle wishes <span style={{ color: 'var(--primary-rose)' }}>🤍</span>
         </p>
 
         {/* Secondary Subtitle */}
@@ -41,7 +41,7 @@ export const Footer = () => {
           color: 'var(--text-muted)',
           fontStyle: 'italic'
         }}>
-          Always wishing Prapti a happy heart. ✨
+          Always wishing Nehal a peaceful mind, a light heart, and a smiling face. ✨
         </p>
 
         {/* Back to top button */}
