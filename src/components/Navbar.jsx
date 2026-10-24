@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { AmbientSound } from './AmbientSound';
 
 export const Navbar = ({ onOpenLetter }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -95,13 +94,10 @@ export const Navbar = ({ onOpenLetter }) => {
               {link.name}
             </a>
           ))}
-
-          <AmbientSound />
         </nav>
 
         {/* Mobile menu toggle */}
         <div className="mobile-toggle" style={{ display: 'none', alignItems: 'center', gap: '0.8rem' }}>
-          <AmbientSound />
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle Navigation Menu"
